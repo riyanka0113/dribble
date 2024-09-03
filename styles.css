@@ -1,0 +1,167 @@
+.container-fluid{
+    padding: 0;
+}
+
+.navbar-brand {
+    color:black;
+    font-weight: 700;
+}
+
+.navbar-brand:hover{
+    color: lightslategray;
+}
+
+.nav-desktop{
+    display: flex;
+    align-items: center;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.nav-link{
+    color: #6e6d7a;
+    font-weight: bold;
+}
+
+.nav-desktop:hover a {
+    color: #ea4c89;
+}
+
+.search{
+    border: none;
+    background: none;
+    color: gray;
+}
+
+.signup{
+    border-radius: 10px;
+    background: #ea4c89;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+.signup:hover{
+    background:#f074a3;
+}
+
+.slide{
+    padding: 10px 50px;
+    background: #F9F8FD;
+}
+
+.pad{
+    padding: 50px 32px;
+}
+
+.accessibility-text {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.tagline{
+    margin: 20px 0;
+    max-width: 256px;
+}
+
+.size{
+    font-size: 30px;
+}
+
+.gray{
+    color: gray;
+}
+
+.row{
+    line-height: 2rem;
+}
+
+.link-heading{
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #0d0c22;
+    padding-top: 30px;
+}
+
+.social{
+    color: #3d3d4e;
+    padding: 0px 2px;
+}
+
+.link{
+    color: black;
+}
+
+.filter{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+.footer-lower-content{
+    padding: 32px 0;
+    color: #6e6d7a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pad20{
+    padding: 20px;
+}
+
+.card-body{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.orsignin{
+    padding: 70px;
+    color: #ea4c89;
+    
+}
+
+.orsignin:hover{
+    color: #dd8492;
+    text-decoration: none;
+}
+
+.productlink:hover{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.default {
+    border-color: #e7e7e7;
+    color: black;
+  }
+  
+.default:hover {
+    background: #e7e7e7;
+  }
+
+.btn {
+    border: 2px solid lightgray;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    padding: 5px 15px;
+}
